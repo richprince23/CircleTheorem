@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lessons | Circle Theorem</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/app-gg.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="nav-items">
+                <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./overview.html">Overview</a></li>
+                <li class="nav-item"><a class="nav-link active-link" href="./lessons.html">Lessons</a></li>
+                <li class="nav-item"><a class="nav-link" href="./about-us.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="./feedback.html">Feedback</a></li>
+                <li class="nav-item"><a class="nav-link " href="./sitemap.html">Sitemap</a></li>
+            </ul>
+        </nav>
+        <div class="well">
+            <h1 class="head-text">Circle Theorem</h1>
+            <p class="muted-text">This is an online tutorial aimed at teaching Circle Theorem</p>
+        </div>
+    </header>
+    <section id="player-box">
+        <!-- this part will be generated dynamically with javascript-->
+        <h3 id="lesson-title">Lesson 1</h3>
+        <p></p>
+        <div class="video">
+            <video id="player" controls>
+
+            </video>
+        </div>
+    </section>
+    <section id="course-box">
+        <!-- Course notes-->
+        <article id="lesson-notes">
+            <div class="" id="main-title-box">
+                <h3 id="main-lesson-title"></h3>
+            </div>
+            <div class="lesson-box">
+                <div id="lesson-content">
+                    <div class="start-box">
+                        <a id="start" class="action-btn rounded-b" href="#" onclick="loadLesson1();">Start Learning</a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div id="lessons-h" style="display: none;">
+                <div id="1" class="content">
+                    <p id="1s"><b>The angle at the circumference subtended by a diameter is a right angle, or more
+                            simply, the angle in a semicircle is a right angle.</b> </p>
+                    <p id="l1">
+                        The line AB is a diameter of the circle, passing through the centre, C. Angle AEB is therefore a
+                        right angle.
+                    </p>
+                    <img src="./images/l1-i1.png" alt="">
+                    <h4>Proof of Property 1</h4>
+                    <hr>
+                    <img src="./images/l1-i2.png" alt="">
+                    <p>
+                        The triangle ABE can be divided into two smaller triangles, ACE and CBE.
+                        Both triangles are isosceles because CA, CE and CB are all radii and therefore equal in length.
+                        &ang;AEB = x +y.
+                        &ang;CAE and &ang;CEA (marked x) are therefore equal, and &ang; ACE is thus (180-2x)°.
+                        Similarly &ang;CBE and &ang;CEB (marked y) are equal, with &ang;BCE = (180-2&beta;)°. Since
+                        &ang;CBE and &ang;CEB
+                        form a straight line, their angle sum is 180°.
+                        Hence (180-2x)° + (180-2y)° = 180° &rarr;(360-2x-2y) ° = 180° &rarr; 2x + 2y = 180° &rarr; x + y
+                        = 90°.
+                        &there4; &ang;AXB is a right angle.
+                    </p>
+                    <br>
+                    <h5>Questions</h5>
+                    <hr>
+                    <img src="./images/q1.png" alt="">
+                </div>
+                <div id="2" class="content">
+                    <p><b>The angle subtended at the Centre of a circle is double the angle subtended at the
+                            circumference.</b></p>
+                    <p> Points A, X and B lie on the circumference of a circle centred on O.
+                        The angle AOB at the centre is double the angle AXB at the circumference (labelled &theta;).
+                    </p>
+                    <img src="./images/l2-i1.png" alt="">
+                    <h4>Proof of Property 2</h4>
+                    <hr>
+                    <img src="./images/l2-i2.png" alt="">
+                    <p>
+                        The figure OAXB can be divided into two smaller triangles, AOX and BOX.
+                        Both triangles are isosceles because OA, OX and OB are all radii and therefore equal in length.
+                        &rarr; AXB = &alpha; + &beta;. &ang;OAX and &ang;OXA (marked &alpha;) are therefore equal, and
+                        &ang;AOX is thus 180-2&alpha;°.
+                        Similarly &ang;OBX and &ang;OXB (marked &beta;) are equal, with &ang;BOX = 180-2&beta;°.
+                        Since angles AOX, BOX and AOB add up to 360° around O.
+                        It follows that &ang;AOB = 360°- (180° – 2&alpha;) – (180° – 2&beta;) &rarr; &ang;AOB = 360° -
+                        (360° - 2&alpha; - 2&beta;)
+                        &rarr; &ang; AOB = 2(&alpha; + &beta;).
+                        &there4; The angle AOB at the centre is double the angle AXB at the circumference
+
+                    </p>
+                    <br>
+                    <h5>Questions</h5>
+                    <hr>
+                    <img src="./images/q2.png" alt="">
+                </div>
+                <div id="3" class="content">
+                    <p><b>Angles subtended by the same chord on the circumference of a circle are equal.</b></p>
+                    <p> Let AB be a chord of a circle.
+                        &ang;APB and AQB (marked &alpha;) are equal, as are &ang;ARB and &ang;ASB (marked &beta;).
+                    </p>
+                    <img src="./images/l3-i1.png" alt="">
+                    <br>
+                    <h5>Questions</h5>
+                    <hr>
+                    <img src="./images/q3a.png" alt=""> <br>
+                    <img src="./images/q3b.png" alt="">
+                </div>
+                <div id="4" class="content">
+                    <p><b>The opposite angles of a cyclic quadrilateral add up to 180°</b></p>
+                    <p>A cyclic quadrilateral is one that can be inscribed in a circle, in other words one whose
+                        vertices lie on a circle’s circumference.
+                        Thus, in the diagram shown right, angles &alpha; and &gamma; have a sum of 180°, as do angles
+                        &beta; and &delta;.
+                    </p>
+                    <img src="./images/l4-i1.png" alt="">
+                    <br>
+                    <h5>Questions</h5>
+                    <hr>
+                    <img src="./images/q4a.png" alt=""> <br>
+                    <img src="./images/q4b.png" alt="">
+                </div>
+                <div id="5" class="content">
+                    <p><b>Two tangents drawn from a point to a circle describe two lines equal in length between the
+                            point and the circle.
+                            <br>A tangent and a radius meet at right angles.
+                        </b></p>
+                    <p>
+                        The lines TX and TY both originate from the point T and form tangents with the circle at points
+                        X and Y.
+                        These tangents are perpendicular to the radii of the circle OX and OY, and are also equal in
+                        length.
+                        Because the triangles OXT and OYT also have side OT in common, both also have all three sides
+                        equal, and are therefore congruent.
+                        As a consequence, angles XOT, YOT (labelled &alpha;) and angles XTO, YTO (labelled &beta;) are
+                        also equal.
+
+                    </p>
+                    <img src="./images/l5-i1.png" alt="">
+                    <br>
+                    <h5>Questions</h5>
+                    <hr>
+                    <img src="./images/q5.png" alt="">
+
+                </div>
+                <div id="6" class="content">
+                    <p><b>Angles in the alternate (opposite) segment are equal.</b></p>
+                    <img src="./images/l6-i1.png" alt="">
+                    <p> In the diagram above, the chord BX and the tangent ST meet at X.
+                        Let SXB be the angle between the chord and the tangent.
+                        Let XAB be the angle in the alternate segment (bounded by chord BX).
+                        Angles SXB and XAB (shaded and labelled &alpha;) are equal.
+                        There is another angle pair in the right-hand diagram.
+                        This time, TXA is the angle between the chord AX and the tangent ST.
+                        Let XBA be the angle in the alternate segment (bounded by chord AX).
+                        Then angles TXA and XBA are equal.
+                    </p>
+                    <br>
+                    <h5>Questions</h5>
+                    <hr>
+                    <img src="./images/q6a.png" alt=""> <br>
+                    <img src="./images/q6b.png" alt="">
+                </div>
+                <div id="7" class="content">
+                    <p><b>The sum of the angles a chord subtends at the circumference of opposite segment of circle sum
+                            up to 180°</b></p>
+                    <p>
+                        In the figure below a+b=180°
+                    </p>
+                    <img src="./images/l7-i1.png" alt=""> <br>
+                    <h5>Questions</h5>
+                    <hr>
+                    <img src="./images/q7.png" alt="">
+                </div>
+                <div id="8" class="content">
+                    <p><b>Equal chords or arcs subtends the same angles at the circumference of a circle</b></p>
+                    <p>
+                        <i>a=b from the diagram</i>
+                    </p>
+                    <img src="./images/l8.png" alt=""> <br>
+                    <h5>Questions</h5>
+                    <hr>
+                    <img src="./images/q8a.png" alt=""><br>
+                    <img src="./images/q8b.png" alt="">
+
+                </div>
+                <div id="answers" class="content">
+                    <h4>Answers</h4>
+                    <hr>
+                    <div class="ans">
+                        <p>Solution to Question 1</p>
+                        <img src="./images/s1.png" alt=""> <br>
+                    </div>
+                    <div class="ans">
+                        <p>Solution to Question 2</p>
+                        <img src="./images/s2.png" alt=""> <br>
+                    </div>
+                    <div class="ans">
+                        <p>Solution to Question 3</p>
+                        <img src="./images/s3a.png" alt=""> <br>
+                        <img src="./images/s3b.png" alt=""> <br>
+                    </div>
+                    <div class="ans">
+                        <p>Solution to Question 4</p>
+                        <img src="./images/s4a.png" alt=""> <br>
+                        <img src="./images/s4b.png" alt=""> <br>
+                    </div>
+                    <div class="ans">
+                        <p>Solution to Question 5</p>
+                        <img src="./images/s5.png" alt=""> <br>
+                    </div>
+                    <div class="ans">
+                        <p>Solution to Question 6</p>
+                        <img src="./images/s6a.png" alt=""> <br>
+                        <img src="./images/s6b.png" alt=""> <br>
+                    </div>
+                    <div class="ans">
+                        <p>Solution to Question 7</p>
+                        <img src="./images/s7.png" alt=""> <br>
+                    </div>
+                    <div class="ans">
+                        <p>Solution to Question 8</p>
+                        <img src="./images/s8a.png" alt=""> <br>
+                        <img src="./images/s8b.png" alt=""> <br>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Player controls-->
+            <section id="lesson-control-box">
+                <div class="lesson-controls d-flex">
+                    <button class="action-btn rounded-n d-flex space-btwn w-120" data-prev="" id="btnPrev"> <i
+                            class="gg-chevron-left"></i>
+                        <span>Previous</span></button>
+
+                    <button class="action-btn rounded-n d-flex space-btwn w-120" data-next=""
+                        id="btnNext"><span>Next</span> <i class="gg-chevron-right"></i></button>
+                </div>
+            </section>
+        </article>
+        <!---Lesson List-->
+        <aside id="course-content">
+            <div class="" id="side-lesson-head">
+                <h3 id="side-lesson-title">LESSONS</h3>
+                <div class="" id="lesson-list-box">
+                    <ul id="lessons">
+                        <li class="lesson-item" onclick="loadLesson1();"><i class="gg-play-button"></i><span
+                                class="lesson-item-text">Lesson
+                                1</span> </li>
+                        <li class="lesson-item" onclick="loadLesson2();"><i class="gg-play-button"></i><span
+                                class="lesson-item-text">Lesson
+                                2</span> </li>
+                        <li class="lesson-item" onclick="loadLesson3();"><i class="gg-play-button"></i><span
+                                class="lesson-item-text">Lesson
+                                3</span> </li>
+                        <li class="lesson-item" onclick="loadLesson4();"><i class="gg-play-button"></i><span
+                                class="lesson-item-text">Lesson
+                                4</span> </li>
+                        <li class="lesson-item" onclick="loadLesson5();"><i class="gg-play-button"></i><span
+                                class="lesson-item-text">Lesson
+                                5</span> </li>
+                        <li class="lesson-item" onclick="loadLesson6();"><i class="gg-play-button"></i><span
+                                class="lesson-item-text">Lesson
+                                6</span> </li>
+                        <li class="lesson-item" onclick="loadLesson7();"><i class="gg-play-button"></i><span
+                                class="lesson-item-text">Lesson
+                                7</span> </li>
+                        <li class="lesson-item" onclick="loadLesson8();"><i class="gg-play-button"></i><span
+                                class="lesson-item-text">Lesson
+                                8</span> </li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </section>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
